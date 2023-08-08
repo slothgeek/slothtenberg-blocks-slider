@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "sg-block/slide",
+	"version": "0.1.0",
+	"title": "Slide",
+  	"parent": [ "sg-block/slider" ],
+	"category": "widgets",
+	"icon": "layout",
+	"description": "Example block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false,
+		"color": {
+		  "text": true,
+		  "background": true,
+		  "link": false
+		}
+	},
+	"textdomain": "slothtenberg-block-slider",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

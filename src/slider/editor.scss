@@ -1,0 +1,126 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-sg-block-slider {
+
+  .empty{
+	margin-bottom: 100px;
+	width: 100%;
+	padding: 1rem;
+
+	.header {
+	  font-size: 1.2rem;
+	  font-weight: 600;
+	  display: flex;
+	  align-items: center;
+	  gap: 10px;
+	}
+  }
+
+  .splide__track{
+	overflow-x: auto;
+	max-width: 100%;
+  }
+
+  ul{
+	display: flex;
+	min-width: 1100px;
+	flex-flow: row;
+	flex-wrap: nowrap;
+	align-items: center;
+
+	&.c1{
+	  li{
+		min-width: 100%;
+		max-width: 100%;
+	  }
+	}
+
+	&.c2{
+	  li{
+		min-width: 50%;
+		max-width: 50%;
+	  }
+	}
+
+	&.c3{
+	  li{
+		min-width: 33.333%;
+		max-width: 33.333%;
+	  }
+	}
+
+	&.c4{
+	  li{
+		min-width: 25%;
+		max-width: 25%;
+	  }
+	}
+
+	&.c5{
+	  li{
+		min-width: 20%;
+		max-width: 20%;
+	  }
+	}
+
+	&.c6{
+	  li{
+		min-width: 16.666%;
+		max-width: 16.666%;
+	  }
+	}
+  }
+
+}
+
+.align-controls {
+  align-items: start;
+  gap: 8px;
+}
+
+.justify-space-between{
+  width: 100%!important;
+
+  .components-flex{
+	justify-content: space-between;
+  }
+
+  .components-input-control__container {
+	max-width: 70px;
+  }
+
+}
+
+.select-full-width{
+  .components-base-control{
+	width: 100%;
+  }
+}
+
+.unit-full-width{
+  .components-unit-control{
+	width: 100%;
+  }
+
+  .components-input-control__container {
+	max-width: 70px;
+  }
+
+  .components-flex{
+	justify-content: space-between;
+  }
+}
+
+.toggle-full-name{
+  .components-toggle-control {
+	width: 100%;
+  }
+  .components-flex {
+	flex-direction: row-reverse;
+  }
+}
+
